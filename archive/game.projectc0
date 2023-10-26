@@ -10,14 +10,14 @@ title_as_file_name = Sum10Blast
 [display]
 width = 836
 height = 470
-high_dpi = 1
+high_dpi = 0
 samples = 0
 fullscreen = 0
 update_frequency = 0
 swap_interval = 1
-vsync = 1
+vsync = 0
 display_profiles = /main/my.display_profilesc
-dynamic_orientation = 1
+dynamic_orientation = 0
 display_device_info = 0
 
 [render]
