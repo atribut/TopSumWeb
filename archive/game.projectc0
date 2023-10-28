@@ -1,11 +1,11 @@
 [project]
-title = Sum10Blast
+title = Sum 10 Blast Numbers
 version = 0.1
 write_log = 0
 compress_archive = 1
 publisher = Brain Massage
 developer = Brain Massage
-title_as_file_name = Sum10Blast
+title_as_file_name = Sum10BlastNumbers
 
 [display]
 width = 836
@@ -50,7 +50,7 @@ max_fixed_timesteps = 2
 
 [bootstrap]
 main_collection = /main/main.collectionc
-render = /orthographic/render/orthographic.renderc
+render = /main/orthographic_my.renderc
 
 [graphics]
 default_texture_min_filter = linear
@@ -141,7 +141,7 @@ app_icon_72x72 = /assets/app_icons/icon_72.png
 app_icon_96x96 = /assets/app_icons/icon_96.png
 app_icon_144x144 = /assets/app_icons/icon_144.png
 app_icon_192x192 = /assets/app_icons/icon_192.png
-version_code = 1
+version_code = 4
 minimum_sdk_version = 19
 target_sdk_version = 33
 package = com.brainmassage.sum10blastnumbers
@@ -149,7 +149,7 @@ gcm_sender_id =
 manifest = /builtins/manifests/android/AndroidManifest.xml
 iap_provider = GooglePlay
 input_method = HiddenInputField
-immersive_mode = 0
+immersive_mode = 1
 display_cutout = 1
 debuggable = 0
 proguard = 
