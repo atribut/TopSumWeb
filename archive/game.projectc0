@@ -1,5 +1,5 @@
 [project]
-title = Sum 10 Blast
+title = Sum10Blast
 version = 0.1
 write_log = 0
 compress_archive = 1
@@ -17,7 +17,7 @@ update_frequency = 0
 swap_interval = 1
 vsync = 1
 display_profiles = /main/my.display_profilesc
-dynamic_orientation = 0
+dynamic_orientation = 1
 display_device_info = 0
 
 [render]
@@ -170,7 +170,7 @@ app_icon =
 custom_heap_size = 0
 heap_size = 256
 htmlfile = /builtins/manifests/web/engine_template.html
-cssfile = /builtins/manifests/web/light_theme.css
+cssfile = /assets/light_theme2.css
 splash_image = /assets/sprites/sum_symbol.png
 archive_location_prefix = archive
 archive_location_suffix = 
